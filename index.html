@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>ORIGEN café | Inicio</title>  
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">ORIGEN Café</a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarOrigen"
+                    aria-controls="navbarOrigen"
+                    aria-expanded="false"
+                    aria-label="Abrir menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarOrigen">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/menu.html">Menú</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/metodos.html">Métodos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="inicio"> 
+        <section class="bienvenida">
+            <h1>Bienvenidos a ORIGEN Café</h1>
+            <p>Descubrí una nueva forma de disfrutar el café de especialidad. En ORIGEN seleccionamos granos de calidad y cuidamos cada 
+               detalle de su preparación.</p>
+            <div id="carruselOrigen" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/cafeteria.jpg"
+                            class="d-block w-100"
+                            alt="Interior de la cafetería ORIGEN Café">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/menu.jpg"
+                            class="d-block w-100"
+                            alt="Café acompañado de pastelería">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/metodos.jpg"
+                            class="d-block w-100"
+                            alt="Preparación de café mediante el método V60">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carruselOrigen" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carruselOrigen" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+        </section>
+        <section class="nosotros">
+            <h2>Sobre nosotros</h2>
+            <p>En ORIGEN Café creemos que cada taza cuenta una historia.
+            Nos apasiona compartir el mundo del café de especialidad
+            y crear experiencias únicas.
+            </p>
+        </section>
+        <section class="ofrecemos">
+            <h2>¿Qué ofrecemos?</h2>
+            <ul>
+                <li>Café de especialidad de distintos orígenes</li>
+                <li>Métodos de preparación artesanales</li>
+                <li>Pastelería para acompañar tu café</li>
+                <li>Un ambiente cálido y acogedor</li>
+            </ul>
+        </section>
+        <section class="destacados">
+            <h2>Conocé nuestros destacados</h2>
+            <article>
+                <h3>Café filtrado</h3>
+                <p>Disfrutá de los aromas y sabores únicos
+                de nuestros cafés preparados con métodos de filtrado.</p>
+            </article>
+            <article>
+                <h3>Espresso</h3>
+                <p>Una preparación intensa y equilibrada para los amantes del café.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 ORIGEN Café. Todos los derechos reservados.</p>
+        <p>Seguinos en nuestras redes sociales:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+        </ul>
+    </footer>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
